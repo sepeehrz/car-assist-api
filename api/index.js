@@ -4,7 +4,7 @@ import handleRouters from "./routes/index.js";
 
 const app = expres();
 app.use(expres.json());
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 handleRouters(app);
 app.set('etag', 'strong');  
