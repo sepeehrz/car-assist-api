@@ -1,6 +1,6 @@
-import sequelize from "../../connection.js";
+import sequelize from "../connection.js";
 import { DataTypes, Model } from "sequelize";
-import Service from './service.js'
+
 
 class Car extends Model {}
 

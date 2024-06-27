@@ -1,6 +1,6 @@
 import expres from "express";
 import 'dotenv/config'
-import handleRouters from "./app/routes/index.js";
+import handleRouters from "./routes/index.js";
 
 const app = expres();
 app.use(expres.json());
